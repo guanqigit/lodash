@@ -2,7 +2,7 @@
  * Defers invoking the `func` until the current call stack has cleared. Any
  * additional arguments are provided to `func` when it's invoked.
  *
- 
+ 123
  *
  * defer(text => console.log(text), 'deferred')
  * // => Logs 'deferred' after one millisecond.
