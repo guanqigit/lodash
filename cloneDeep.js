@@ -1,27 +1,17 @@
-import baseClone from './.internal/baseClone.js'
-
-/** Used to compose bitmasks for cloning. */
-const CLONE_DEEP_FLAG = 1
-const CLONE_SYMBOLS_FLAG = 4
-
-/**
- * This method is like `clone` except that it recursively clones `value`.
- *
- * @since 1.0.0
- * @category Lang
- * @param {*} value The value to recursively clone.
- * @returns {*} Returns the deep cloned value.
- * @see clone
- * @example
- *
- * const objects = [{ 'a': 1 }, { 'b': 2 }]
- *
- * const deep = cloneDeep(objects)
- * console.log(deep[0] === objects[0])
- * // => false
- */
-function cloneDeep(value) {
-  return baseClone(value, CLONE_DEEP_FLAG | CLONE_SYMBOLS_FLAG)
-}
-
-export default cloneDeep
+// Vietnamese (vi)
+plupload.addI18n({
+  "Stop Upload": "Dừng",
+  "Upload URL might be wrong or doesn't exist.": "Đường dẫn URL tải lên không đúng hoặc không tồn tại.",
+  "tb": "TB",
+  "Size": "Dung lượng",
+  "Close": "Đóng",
+  "Init error.": "Lỗi khởi tạo",
+  "Add files to the upload queue and click the start button.": "Thêm tập tin để tải lên và bấm vào nút bắt đầu",
+  "Filename": "Tên tập tin",
+  "Image format either wrong or not supported.": "Địng dạng hình ảnh không đúng hoặc không được hỗ trợ.",
+  "Status": "Trạng thái",
+  "HTTP Error.": "Lỗi HTTP",
+  "Start Upload": "Bắt đầu",
+  "mb": "MB",
+  "kb": "KB",
+  "Duplicate file error.": "Tập ti
